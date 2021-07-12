@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/VincenzoCavataio/viaggiesogni/issues"
   },
-  "homepage": "https://github.com/VincenzoCavataio/viaggiesogni#readme"
+  "homepage": "https://github.com/VincenzoCavataio/viaggiesogni#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
 }
