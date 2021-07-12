@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "startfe": "cd fe && npm start",
-    "startbe": "cd be && node App.js"
+    "startbe": "cd be && node App.js",
+    "startall": "concurrently --kill-others \"cd fe && npm run start\" \"cd be && node App.js\""
   },
   "repository": {
     "type": "git",
