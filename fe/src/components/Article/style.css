@@ -1,0 +1,43 @@
+.article {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.article_info {
+    padding: 0 40px;
+}
+
+.article_img img {
+    width: 600px;
+}
+
+.reverse .article_info {
+    order: -1;
+}
+
+
+@media screen and (max-width: 1260px) {
+    .article {
+        flex-direction: column;
+    }
+
+    .article_img {
+        order: 2;
+    }
+
+    .article_info {
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .reverse .article_info {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .article_img img {
+        width: 100%;
+    }
+}
